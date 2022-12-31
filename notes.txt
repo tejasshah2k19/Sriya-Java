@@ -1,0 +1,256 @@
+java ->
+    jdk 
+    jre 
+
+class -  variable + methods 
+object/instance -> access -> properties of class 
+
+
+.java 
+
+javac A.javac
+java  A 
+
+
+Scanner -> java api , sql api
+ADT 
+
+nextInt()
+nextFloat()
+nextDouble()
+next() => scan string multiple character but not space [ single word ]
+nextLine() => multiple word in a scan 
+....
+-----------------------------
+switch 
+-----------------------------
+conditional statement 
+loop 
+-----------------------------
+
+                        data type 
+        primitive                       non primitive
+        8                               class , object , enum , array 
+        byte(i)     1byte [-128 - 127 ]
+        short(i)    2byte []
+        char(i,c)   2byte 'A' 
+        int(i)      4byte
+        long(i)     8byte
+        float(r)    4byte
+        double(r)   8byte
+        boolean(true false) 1bit 
+
+
+
+
+-----------------------------
+String - class 
+char name = 'a' ;
+char array 
+char name[34];
+
+
+calc 
+    symbol
+
+    + => add 
+    - => sub
+    % => remainder of two numbers -> 7  5 => 
+    / 
+    *
+
+-----------------------------  
+.java
+how  many class u can create in 1 java file?
+
+can i have more than 1 main method in more than 1 class ? 
+A  
+ main 
+B 
+ main 
+
+ ans:yes 
+
+
+
+if i have 3 class 
+A
+ main 
+B
+ main 
+C 
+ no main  
+save? i can give name 
+X.java 
+
+javac X.java [A B C ]
+java A
+java B
+java C - no such method main 
+
+q:
+
+if i have 3 class 
+public A
+ no main
+B
+ main 
+C 
+ no main  
+save? A.java
+
+javac A.java [ A B C ]
+java B 
+
+-----------------------------------------------------------------------------
+naming convention :- 
+
+class  :-  Empl , TempEmpl , TempEmplSal  
+variable :- salary , maxSalary , maxTotalSalary 
+method :-   same as variable  add() , addSalary() 
+constant variable :- allCaps  , MIN_BALANCE , PI , MAX_TAX 
+
+-----------------------------------------------------------------------------
+Rules for identifier -> 
+    1) you can allow :- AZ az 09 underscore _  and dollar $ 
+    2) first character must not be a digit 
+    3) you can't use keywords [ resereve words ] [ int for goto break ]
+    4) upper case and lowe case are significant 
+            bal , Bal  
+-----------------------------------------------------------------------------
+how we can import a class in java? 
+import 
+-----------------------------------------------------------------------------
+types of variable :-    
+1) instance variable 
+2) static variable
+3) local variable 
+-----------------------------------------------------------------------------
+class , method , variable , etc 
+
+CineMax is SingleScreen Movie Theater , user can buy online tickets 
+it has 100 seat in a screen. 
+in a day there are 3 shows are running. 
+
+every shows has 3 category of tickets 
+Diamond : - 30
+Gold    : - 30 
+Silver  : - 40
+
+Rate Are fix -> D:300 , G:200 , S:100 
+
+User can book their tickets via their name and mobile number 
+
+once user book ticket you need to print their bill. 
+user can book any category with maximum 6 qty overall
+
+design : class , variable , method , menu , etc....
+
+--------------------------------------------------------------
+
+1.Login 
+2.Exit 
+
+    1.Login 
+        name mobilenumber [Tejas 9510 :]
+        1.Gold 
+        2.Silver 
+        3.Diamond
+        4.print ticket  
+        0.Logout 
+            1. 
+                Qty?
+                3   [Tejas 9510 : 3gold ]
+
+        1.Gold 
+        2.Silver 
+        3.Diamond
+        4.print ticket 
+        0.logout 
+            2.
+                Qty? 
+                 3  [Tejas 9510 : 3gold , 3silver ]
+        1.Gold 
+        2.Silver 
+        3.Diamond
+        4.print ticket 
+        0.logout 
+        0
+        You have to play [3*200+3*100] 900 
+
+1.Login 
+2.Exit 
+   name mobilenumber 
+   ram 1234  
+        1.Gold 
+        2.Silver 
+        3.Diamond
+        4.print ticket 
+        0.logout 
+        4
+            No ticket(s) found.
+            
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
