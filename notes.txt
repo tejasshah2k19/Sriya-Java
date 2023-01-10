@@ -189,8 +189,136 @@ design : class , variable , method , menu , etc....
         0.logout 
         4
             No ticket(s) found.
-            
-             
+
+-----------------------------------------------------------------------
+constructor :-    its a special method having same name as a class name     
+                  it is used to initialize instance variable 
+                  it must not have any return type 
+                  make it public if possible* 
+            1) implicit 
+                 -- default | no args
+            2) explicit       
+                1)  default - no args constructor
+                2)  parameterized - args constructor
+
+-----------------------------------------------------------------------
+    code reuse 
+
+inheritance :- by which object of 1 class can access property of another class 
+               extends keyword is used to achieve inheritance in java 
+               *) 5 type inheritance 
+               1) SingleLevel  
+                        A 
+                        B  
+               2) Multilevel
+                        A
+                        B
+                        C
+               3) Multiple [ java does not support this directly ]
+                    A       B
+                        C
+                4) Hirerchical 
+                        A
+                    B       C
+                D      E        F 
+
+                5) hybrid [ combine any two inheritance ]
+-------------------------------------------------------------------------------------
+									
+		delhi							
+		A	add sub mul div						
+		B	A obj = new A()						
+			extends A 						
+			B obj = new B() 						
+		X 							
+									
+		mumbai							
+		C	import  delhi.A; 		A obj = new A()				
+		D	import  delhi.A; 		extends A				
+					D obj = new D()				
+
+
+        A ->                    private    default   protected  public
+
+        B -> objA               N           Y           Y       Y 
+        X -> extends A:objX     N           Y           Y       Y
+
+        C : objA                N           N           N       Y   
+        D extends A :objC       N           N           Y       Y
+
+
+
+default , public : class 
+default private protected public : method , variable 
+
+-------------------------------------------------------------------------------------
+
+non access modifier 
+
+abstract :- 
+    abstract class 
+    interface 
+
+-------------------------------------------------------------------------------------
+
+final :- 
+    1)  class 
+    2)  method 
+    3)  variable
+
+final int A = 10 ; //constant 
+
+-------------------------------------------------------------------------------------
+static :- 
+    variable
+    method
+-------------------------------------------------------------------------------------
+strictfp :- IEE5754
+   98989/95842588 => 0.2652366662323121111111111119
+   98989/95842588 => 0.2652366662323121111111111119
+       
+    class : 
+    method : 
+-------------------------------------------------------------------------------------
+
+enum :- 
+    final int MONTH = 1;
+
+    Parent p = new Child(); //works 
+    Child c = new Parent(); //error 
+
+    Parent p = new Parent();
+    Child c = new Child(); 
+    
+    //293  
+    p = c;
+    //295 
+    c=p;//compilation error 
+    c=(Child)p;// runtime error
+
+
+    int a =1;
+    float b =2f; 
+    a = (int)b; 
+
+-------------------------------------------------------------------------------------
+
+
+char name[30]; 
+String s2 = "royal";
+String s3 = "royal"; 
+String s1 = new String("royal");
+
+"royal" --> string pool constant 
+
+s2,s3 --------------------> royal 
+s1   --------------------> royal 
+
+
+
+
+
+
 
 
 
