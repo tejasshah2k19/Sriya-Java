@@ -314,10 +314,56 @@ String s1 = new String("royal");
 s2,s3 --------------------> royal 
 s1   --------------------> royal 
 
+-----------------------------------------------
 
 
+exception :- [ runtime error ] 
 
+error :- 
+	1) compile time  ; = ==  
+	2) runtime 
+	
+		.class  -> run -> error | crash => exception  
 
+	int -> float 
+	num/0
+	
+	1)  try 
+	2)  hit 
+	3)  throw 
+	4)  catch 
+	
+			
+									Object 
+			
+			
+								Throwable
+					Error							Exception
+										 RuntimeException		IOException,PraseException
+											ArithmeticException						
+											InputmismathcException
+	1) checked - comp
+	2) unchecked - optinal 
+			
+	
+	
+	
+	try
+	catch
+	
+	try
+	catch
+	catch
+	
+	
+	try
+	catch
+	finally
+	
+	try
+	finally 
+	
+----------------------------------------------------------------------------------------	
 
 
 
