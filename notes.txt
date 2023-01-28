@@ -364,6 +364,49 @@ error :-
 	finally 
 	
 ----------------------------------------------------------------------------------------	
+ how many types of error we have? 
+
+1) compile time 
+2) runtime 
+
+
+__compiler___ is handle compile time error 
+when any compile time error is thr compiler will not let you go ahead we need to fix it and then we can get class file. 
+
+
+__exception__ is known as runtime error
+
+
+
+who is the parent of all  exception class? 
+Exception  
+
+Object is the parent of all class
+Throwable is the parent of Exception class 
+
+how to identify an Exception class is checked or unchecked? 
+all unchecked exception class is child of RuntimeException 
+all checked exception class is not child of RuntimeException 
+
+
+_finally_ block is used to handle garbadhge cleaninig in exception life cycle
+
+
+how to create custom exception?
+extend class with Exception 
+pass error message using constructor 
+
+how we can throw that custom exception ?
+using throw keyword we can throw an object of any exception class 
+
+--------------------------------------------------------------------
+
+
+
+
+
+
+
 
 
 
