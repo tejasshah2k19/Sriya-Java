@@ -7,7 +7,8 @@ public class PatternMatcherDemo {
 
 	public static void main(String[] args) {
 //		new PatternMatcherDemo().searchDigit(); 
-		new PatternMatcherDemo().searchRange();
+//		new PatternMatcherDemo().searchRange();
+		new PatternMatcherDemo().searchHexa();
 	}
 
 	
@@ -42,6 +43,21 @@ public class PatternMatcherDemo {
 		}
 	}
 
+	void searchHexa() {
+		Pattern p = Pattern.compile("0[xX][a-fA-F0-9]+");// \d 
+		Matcher m = p.matcher("cfdrgh0xy787uhgfde450x234ZC12368ikj0xABC1Zhgf");
+
+//		System.out.println(m.find()+" => "+m.start()+" => "+m.group());
+//		System.out.println(m.find()+" => "+m.start()+" => "+m.group());
+//		System.out.println(m.find()+" => "+m.start()+" => "+m.group());
+//		System.out.println(m.find()+" => ");
+
+		while (m.find()) {
+			System.out.println(m.start()+" => "+m.group());
+		}
+	}
+
+	
 	void basic() {
 		Pattern p = Pattern.compile("ab");
 		Matcher m = p.matcher("abasabfdabfdf");

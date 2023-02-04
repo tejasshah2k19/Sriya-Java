@@ -404,8 +404,20 @@ using throw keyword we can throw an object of any exception class
 
 
 
+File class 
 
 
+
+read and write --> io 
+
+	byte						character  
+	OutputStream				Writer  
+	InputStream 				Reader 
+		
+	
+				OutputStream --> write => file -> byte 
+				FileOutputStream 
+				
 
 
 
