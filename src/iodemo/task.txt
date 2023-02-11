@@ -10,4 +10,13 @@
 		3.3) if first file is not present and second is present then print "Maggie"
 		3.4) if both files are missing print "JamesBond"		
 --------------------------------------------------------------------------------------
-		 
+1) take two names from user and store into file. 
+	now read first name from file and store into a.txt
+	read second name from file and store into b.txt 
+
+2) take two file name from user and compare both are same or not .
+		files and data both are present in file. 
+--------------------------------------------------------------------------------------
+1) create a file with many lines = copy data from wikie. 
+		now search how many times sachin is present. 
+	copy that line in another.  				
