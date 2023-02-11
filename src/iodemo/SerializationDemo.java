@@ -39,7 +39,7 @@ public class SerializationDemo {
 		System.out.println(u6.password);
 
 		ois.close();
-
+   
 	}
 }
 
