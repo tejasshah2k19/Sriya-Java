@@ -423,10 +423,38 @@ read and write --> io
 				FileReader 
 
 
+--------------------------
+ 
+ NIO 
+ 
+ 
+ Path
+ Paths
+ Files 
+ 
+ 
+ Serialization --> 
+ 	writing an instance into --> writing the state of instance into a file 
+ Bank 
+ 1 2 3 4  5  
+ Student 
+ 
+ Product 
+ 
 
 
-
-
+ 10 object -> 
+ 1 -> userid email pwd balance gender 
+ 
+ 
+ userid email pwd balance gender 
+ userid email pwd balance gender 
+ userid email pwd balance gender 
+ userid email pwd balance gender 
+ userid email pwd balance gender 
+ 
+ 
+ writeObject(o1); 
 
 
 
