@@ -2,7 +2,7 @@ package threads;
 
 public class BankThread extends Thread {
 
-	int balance = 10000;
+	int balance = 10000;//15000 =-5000
 
 	synchronized void wid(int amt) {
 		System.out.println(currentThread().getName() + "is Wid...start..");

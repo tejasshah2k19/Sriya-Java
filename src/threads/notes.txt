@@ -15,5 +15,55 @@ synchronized --> lock
  	sriya 
  	
 2) class level lock 
+	static 
 	tejas prisha sriya 
+	
+//ThreadSum 
+//ThreadBank 
+
+	
+	
+	
+	
+	[new] 	start()			running | runnable			stop() 	dead	
+								yield()  	
+								[Active]
+	
+	
+	
+								sleep(ms)
+								wait() 	notify() notifyAll()
+								suspend() resume()
+								wait(ms) --auto notify 
+								
+	
+								[block]
+	
+	
+----------------------------------------------------------------------
+
+concurrency => 
+	
+	t1
+	t2
+	t3 
+	
+	jvm -> t1(10) t2(10) t3(10) -> 30min 
+	
+	java.util.concurrent 
+	
+	java  -> pool ->  t1 t2 t3 -> queue -> t1 t2 t3 t4 t5 t6 t7 
+	
+	processor -> workers [16]
+	
+	w1 w2 w3 w4 w5
+	t1 t2 t3 t4 t5
+		
+----------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
 	

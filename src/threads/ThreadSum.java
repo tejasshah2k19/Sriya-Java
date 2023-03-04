@@ -12,10 +12,13 @@ public class ThreadSum extends Thread {
 
 	public static void main(String[] args) throws InterruptedException {
 		ThreadSum t = new ThreadSum();
-		t.start();//t -> 10 instruction 
-//		t.join();
+		t.start();// t -> 10 instruction
+
+		// t.join();
 //		Thread.sleep(2);
-	
+		synchronized (t) {
+			t.wait();// synchronized
+		}
 		System.out.println("Sum => " + t.sum);//
 	}// 1+2+3----10 -> 55
 }
