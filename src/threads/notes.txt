@@ -60,7 +60,48 @@ concurrency =>
 	t1 t2 t3 t4 t5
 		
 ----------------------------------------------------------------------
-	
+
+1) ThreadSum
+	-> create 1 thread that find sun of 1 to 100 
+	-> sum of 1 to 100 stores in instance variable of ThreadSum class 
+	-> you need print sum inside the main method 
+		
+2) ThreadSumMulti
+	-> You have 1 class ThreadSumMulti
+	-> it has 1 instance variable sum 
+	-> you need to create three thread of this ThreadSumMulti class 
+	-> first thread will do sum of 1 to 20 
+	-> second thread will do sum of 21 to 40 
+	-> third thread will do sum of 41 to 60 
+	-> now in main method print variable sum that has sum of all three thread. 
+
+3) Try to use Concurrency in ThreadsumMulti [ program1 and program2]	
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 	
 	
